@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display: flex;
+  color: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  background-color: #DDEAE1;
+  font-family: cursive;
+  flex-direction: column;
+}
+
+body {
+  background-color: #DDEAE1;
+}
+h2 {
+  color: #F84E6B;
+  text-transform: uppercase;
+  text-decoration: underline black;
+}
+
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #18244C;
+  padding: 20px 50px;
+  transform: rotate(3deg)
+}
+
+/* .App-container-div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  background-color: #18244C;
+
+} */
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+#home-score {
+  background-color: black;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px 40px;
+  color: #F84E6B;
+  font-size: 30px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#guest-score {
+  background-color: black;
+  margin: 10px;
+  border-radius: 3px;
+  padding: 10px 40px;
+  color: #F84E6B;
+  font-size: 30px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  cursor: pointer
+}
+button {
+  margin: 2px;
+  background-color: #18244C;
+  color: #F5F5F5;
+  border-color: #F5F5F5;
+  border-radius: 2px;
+  padding: 3px 5px;
+  transition: color 1s;
+  transition: width 3s;
+}
+
+button:hover {
+
+  color: #F84E6B;
+  cursor: pointer;
+  width: 30px;
+}
+
